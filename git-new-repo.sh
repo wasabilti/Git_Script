@@ -12,5 +12,6 @@ echo ''# $REPO_NAME >> README.md
 git init
 git add README.md
 git commit -m "initial repo"
-git remote add origin https://github.com/$ACCOUNT_NAME/$REPO_NAME.git
+# Using ssh
+git remote add origin git@github.com:$ACCOUNT_NAME/$REPO_NAME.git
 git push -u origin master
