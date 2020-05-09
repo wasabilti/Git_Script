@@ -6,10 +6,11 @@
 
 read -p "Repository name: " REPO_NAME
 # read -p "Discription: " DISCRIP_STR
+read -p "Your account name: " ACCOUNT_NAME
 
 echo ''# $REPO_NAME >> README.md
 git init
 git add README.md
 git commit -m "initial repo"
-git remote add origin https://github.com/wasabilti/$REPO_NAME.git
+git remote add origin https://github.com/$ACCOUNT_NAME/$REPO_NAME.git
 git push -u origin master
