@@ -1,2 +1,2 @@
 #git_script
-some useful script of git
+some useful shell script for git
