@@ -2,7 +2,7 @@
 
 # Script to create a new repositories
 
-PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Library/Apple/usr/bin:~/bin
+# PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Library/Apple/usr/bin:~/bin
 
 read -p "Repository name: " REPO_NAME
 # read -p "Discription: " DISCRIP_STR
