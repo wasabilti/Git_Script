@@ -2,7 +2,7 @@
 
 # Use to init git at first install
 
-PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Apple/usr/bin:/Users/wasabi/bin:/Users/wasabi/bin:/Users/wasabi/bin
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Library/Apple/usr/bin:~/bin
 
 export PATH
 
