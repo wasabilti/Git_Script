@@ -17,9 +17,13 @@ ssh-keygen -t rsa -C "EMAIL"
 
 eval $(ssh-agent -s)
 
-read -p "Private key file name(Incoude path): " KEYNAME
+read -p "Private key file (eg: ~/.ssh/id_rsa): " KEYNAME
 
 ssh-add $KEYNAME
+
+read -p "Public key file (eg: ~/.ssh/id_rsa.pub)" PUBNAME
+
+cat $PUBNAME
 
 echo 'Copy the pub key to github.com'
 
