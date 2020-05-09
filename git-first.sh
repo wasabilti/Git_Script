@@ -31,4 +31,3 @@ read tmp_wait
 
 ssh -T git@github.com
 
-# test script
